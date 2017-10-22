@@ -183,6 +183,9 @@
             },
             "case":{
                "after":true
+            },
+            "catch":{
+              "after": false
             }
          }
       }

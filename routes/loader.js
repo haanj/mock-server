@@ -9,7 +9,7 @@ module.exports = router => {
 
     try {
       require(routeDir + routeFile)(router);
-    } catch (error) {
+    } catch(error) {
       console.log(`Route ${routeFile} could not be loaded`);
     }
   });
